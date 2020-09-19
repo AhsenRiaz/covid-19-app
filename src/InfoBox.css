@@ -1,0 +1,27 @@
+.infoBox{
+    flex: 1;
+
+}
+.infoBox:hover{
+    border-top:10px solid red ;
+    transition: 0.2s ease-in-out;
+
+}
+
+.infoBox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infoBox__cases{
+    color: red;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__total{
+    color: #6c757d;
+    font-weight: bold !important;
+    font-size: 1rem !important ;
+    margin-top: 15px !important;
+}
